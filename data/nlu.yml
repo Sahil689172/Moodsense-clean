@@ -1,0 +1,779 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - I feel happy
+    - I'm so happy
+    - I am feeling great
+    - I feel awesome
+    - I'm in a good mood
+    - I feel fantastic
+    - I'm cheerful
+    - I'm feeling positive
+    - I feel wonderful
+    - I'm excited about today
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: suggest_activity
+  examples: |
+    - suggest me an activity to do
+    - what should I do now
+    - give me something fun to do
+    - recommend an activity
+    - I am bored, what can I do?
+
+- intent: express_anxiety
+  examples: |
+    - I have exam tomorrow. I am still nervous
+    - I am nervous about my test
+    - I feel anxious about my exams
+    - I'm nervous for my test
+    - I'm stressed about work
+    - I can't sleep because of anxiety
+    - I am worried about my exam
+    - I am anxious about tomorrow
+    - I feel nervous
+    - I am feeling anxious
+    - I can't stop worrying
+    - I feel like something bad will happen
+    - I am panicking
+    - I feel like my heart is racing
+    - I can't calm down
+    - I feel like I'm losing control
+    - I feel like I'm going to fail
+    - I feel like I'm not ready
+    - I feel like I'm under pressure
+    - I feel like I'm overwhelmed
+    - I feel like I'm always anxious
+    - I feel like I'm on edge
+    - I feel like I'm not prepared
+    - I feel like I'm about to break down
+    - I feel like I'm suffocating
+    - I feel like I'm trapped by anxiety
+    - I feel like I'm always worried
+    - I feel like I'm not good enough
+    - I feel like I'm being judged
+    - I feel like I'm not in control
+    - I feel like I'm always stressed
+
+- intent: express_sadness
+  examples: |
+    - I feel sad
+    - I am feeling sad
+    - I'm sad
+    - Feeling down
+    - I am upset
+    - I feel blue
+    - I am not happy
+    - I feel miserable
+    - I am depressed
+    - I am unhappy
+    - I am feeling low
+    - I am in a bad mood
+    - I am not okay
+    - I am feeling terrible
+    - I am feeling hopeless
+    - I am feeling empty
+    - I feel like crying
+    - I just want to cry
+    - I feel like nothing matters
+    - I feel so alone and sad
+    - I can't stop feeling sad
+    - I feel hopeless and alone
+    - I feel like nobody cares
+    - I am so down today
+    - I feel like giving up
+    - I feel broken
+    - I feel like I have no energy
+    - I feel like I'm drowning in sadness
+    - I can't get out of bed
+    - I feel like my heart is heavy
+    - I feel like I'm lost in sadness
+    - I feel like I'm stuck in a dark place
+    - I feel like I'm not enough
+    - I feel like I'm always sad
+    - I feel like I'm falling apart
+    - I feel like I'm invisible
+    - I feel like I'm not wanted
+    - I feel like I'm a burden
+    - I feel like I'm always crying
+    - I feel like I'm not strong enough
+    - I feel like I'm failing at life
+    - I feel like I'm not living, just existing
+
+- intent: work_stress
+  examples: |
+    - My boss scolded me in front of everyone.
+    - I got yelled at at work.
+    - My manager embarrassed me.
+    - I had a tough day at work.
+
+- intent: body_image
+  examples: |
+    - I'm getting fat and I hate how I look.
+    - I hate my body.
+    - I feel ugly.
+    - I don't like my appearance.
+
+- intent: lack_motivation
+  examples: |
+    - I want to workout but I'm not motivated.
+    - I can't get myself to exercise.
+    - I have no motivation to do anything.
+    - I feel lazy and unmotivated.
+
+- intent: depression
+  examples: |
+    - I feel empty and depressed.
+    - I feel nothing.
+    - I feel hopeless.
+    - I feel broken inside.
+
+- intent: anxiety
+  examples: |
+    - I have a test tomorrow and I'm freaking out.
+    - I'm so nervous about my exam.
+    - I'm anxious about tomorrow.
+    - I can't stop worrying about my test.
+
+- intent: relationship_conflict
+  examples: |
+    - My partner and I had a fight and I feel drained.
+    - I argued with my boyfriend/girlfriend.
+    - My relationship is stressful.
+
+- intent: loneliness
+  examples: |
+    - I feel so alone.
+    - I feel lonely.
+    - No one cares about me.
+    - I have no friends.
+
+- intent: sleep_problems
+  examples: |
+    - I can't sleep, and my thoughts are all over the place.
+    - I have insomnia.
+    - My mind races at night.
+
+- intent: grief
+  examples: |
+    - I lost someone close to me and I don't know how to cope.
+    - I'm grieving.
+    - I miss someone who passed away.
+
+- intent: social_comparison
+  examples: |
+    - Everyone's ahead in life and I feel left behind.
+    - I feel like I'm not progressing.
+    - Others are more successful than me.
+
+- intent: burnout
+  examples: |
+    - I'm tired all the time and nothing feels enjoyable.
+    - I feel burnt out.
+    - I have no energy left.
+
+- intent: fear_of_failure
+  examples: |
+    - I'm scared of failing and disappointing everyone.
+    - I'm afraid to try because I might fail.
+    - I don't want to let people down.
+
+- intent: breakup
+  examples: |
+    - My relationship ended and I feel lost.
+    - I just broke up with my partner.
+    - I feel heartbroken.
+    - My girlfriend/boyfriend left me.
+
+- intent: overthinking
+  examples: |
+    - I keep replaying things in my mind.
+    - I can't stop overthinking.
+    - My thoughts won't stop.
+    - I overanalyze everything.
+
+- intent: imposter_syndrome
+  examples: |
+    - I feel like a fraud
+    - I don't deserve my success
+    - I feel like I'm pretending
+    - I'm not good enough for this
+
+- intent: fear_of_rejection
+  examples: |
+    - What if they don't like me?
+    - I'm afraid of being rejected
+    - I worry people won't accept me
+    - I'm scared of not fitting in
+
+- intent: anger_management
+  examples: |
+    - I get angry very easily
+    - I can't control my anger
+    - I yelled at someone and regret it
+    - How do I calm down when I'm mad?
+
+- intent: self_esteem
+  examples: |
+    - I don't feel good about myself
+    - I have low self-esteem
+    - I wish I was more confident
+    - I feel worthless
+
+- intent: perfectionism
+  examples: |
+    - I want everything to be perfect
+    - I can't stand making mistakes
+    - I feel like a failure if things aren't perfect
+    - I put too much pressure on myself
+
+- intent: trauma
+  examples: |
+    - I keep remembering something bad that happened
+    - I have flashbacks
+    - I can't move on from my past
+    - My trauma is affecting my life
+
+- intent: addiction
+  examples: |
+    - I can't stop drinking
+    - I'm addicted to my phone
+    - I want to break a bad habit
+    - How do I stop my addiction?
+
+- intent: suicidal_thoughts
+  examples: |
+    - I don't want to live anymore
+    - I have thoughts of ending my life
+    - I feel like giving up completely
+    - Life doesn't feel worth living
+
+- intent: regret_quick_decisions
+  examples: |
+    - I make quick decisions and regret them later.
+    - I decide too fast and then feel bad.
+    - I act on impulse and wish I hadn't.
+
+- intent: repeat_mistakes
+  examples: |
+    - I keep making the same mistakes even when I know better.
+    - I repeat my mistakes.
+    - I know what to do but don't do it.
+
+- intent: first_impressions
+  examples: |
+    - I fall for first impressions too easily.
+    - I judge people too quickly.
+    - I trust my first impression too much.
+
+- intent: money_decisions
+  examples: |
+    - Why do I make dumb money decisions?
+    - I make bad choices with money.
+    - I regret my financial decisions.
+
+- intent: framing_effect
+  examples: |
+    - I get swayed by how something is presented.
+    - I change my mind based on how things are worded.
+    - The way things are framed affects my decision.
+
+- intent: sunk_cost
+  examples: |
+    - Why do I stick with bad choices just because I started them?
+    - I keep going with things I should quit.
+    - I can't let go of things I've invested in.
+
+- intent: trust_instincts
+  examples: |
+    - I trust my instincts too much.
+    - I always go with my gut.
+    - I rely on intuition even when it's wrong.
+
+- intent: negativity_bias
+  examples: |
+    - I always remember negative things
+    - I always focus on the bad
+    - I can't stop thinking about negative events
+    - I forget the good things and remember the bad
+    - I dwell on my mistakes
+    - I can't let go of negative memories
+    - I feel like I'm always negative
+    - I focus on what's wrong
+    - I can't see the positive side
+    - I feel like I'm stuck in negativity
+    - I feel like I can't be positive
+    - I feel like I'm always complaining
+    - I feel like I notice problems more than solutions
+    - I feel like I can't appreciate the good
+    - I feel like I'm always worried about bad things
+    - I feel like I expect the worst
+    - I feel like I can't move past the negative
+    - I feel like I can't enjoy the good moments
+    - I feel like I'm always anxious about bad outcomes
+    - I feel like I can't stop thinking about what went wrong
+
+- intent: illusion_of_validity
+  examples: |
+    - I overestimate how much I know.
+    - I think I'm right even when I'm not.
+    - I'm too confident in my knowledge.
+
+- intent: decision_fatigue
+  examples: |
+    - I can't make decisions when options are too many.
+    - Too many choices overwhelm me.
+    - I get tired making decisions.
+
+- intent: meaninglessness
+  examples: |
+    - I feel like my life has no meaning.
+    - My life feels pointless.
+    - I can't find meaning in anything.
+
+- intent: enduring_suffering
+  examples: |
+    - How do I deal with suffering that won't go away?
+    - My pain never ends.
+    - I can't escape my suffering.
+
+- intent: emptiness_crisis
+  examples: |
+    - What's the point of surviving if I'm always empty?
+    - I feel empty all the time.
+    - I don't see the point in living.
+
+- intent: loss_and_meaning
+  examples: |
+    - I lost someone and can't make sense of it.
+    - I can't understand my grief.
+    - Loss has left me lost.
+
+- intent: job_misery
+  examples: |
+    - I'm stuck in a job that makes me miserable.
+    - My work makes me unhappy.
+    - I hate my job but can't leave.
+
+- intent: staying_strong
+  examples: |
+    - How can I stay strong when everything feels pointless?
+    - How do I keep going when nothing matters?
+    - I want to be strong but I feel hopeless.
+
+- intent: lost_identity
+  examples: |
+    - I feel like I've lost my identity.
+    - I don't know who I am anymore.
+    - My sense of self is gone.
+
+- intent: hope_in_dark_times
+  examples: |
+    - Is it possible to find hope in dark times?
+    - Can I have hope when things are bad?
+    - How do I stay hopeful when life is hard?
+
+- intent: want_to_feel_alive
+  examples: |
+    - I'm tired of just surviving. I want to feel alive.
+    - I want to thrive, not just survive.
+    - How do I feel alive again?
+
+- intent: suffering_and_strength
+  examples: |
+    - Does suffering ever make us stronger?
+    - Can pain make me a better person?
+    - Is there value in suffering?
+
+- intent: dwelling_on_past
+  examples: |
+    - I can't stop thinking about the past.
+    - My mind is stuck in the past.
+    - I keep reliving old memories.
+
+- intent: worrying_about_future
+  examples: |
+    - I'm always worrying about the future.
+    - I can't stop thinking about what might happen.
+    - The future makes me anxious.
+
+- intent: feeling_disconnected
+  examples: |
+    - I feel lost and disconnected from life.
+    - I feel disconnected from everything.
+    - I don't feel present.
+
+- intent: want_to_escape_thoughts
+  examples: |
+    - I want to escape my thoughts.
+    - My thoughts are overwhelming.
+    - I wish I could stop thinking.
+
+- intent: negative_voice
+  examples: |
+    - How can I stop the negative voice in my head?
+    - My inner critic won't stop.
+    - I have a negative voice in my mind.
+
+- intent: always_in_rush
+  examples: |
+    - I feel like I'm always in a rush.
+    - I'm always hurrying.
+    - I can't slow down.
+
+- intent: control_issues
+  examples: |
+    - I keep trying to control everything.
+    - I want to control every outcome.
+    - I can't let go of control.
+
+- intent: feeling_incomplete
+  examples: |
+    - Why do I always feel incomplete?
+    - I never feel whole.
+    - I feel like something is missing in me.
+
+- intent: overwhelmed_by_emotions
+  examples: |
+    - I'm overwhelmed by my emotions.
+    - My feelings are too much.
+    - I can't handle my emotions.
+
+- intent: living_in_now
+  examples: |
+    - What does it mean to live in the now?
+    - How do I be present?
+    - How can I live in the moment?
+
+- intent: lose_control_emotions
+  examples: |
+    - I lose control of my emotions easily.
+    - My emotions get the best of me.
+    - I can't manage my feelings.
+
+- intent: express_feelings
+  examples: |
+    - I don't know how to express my feelings
+    - I can't put my feelings into words
+    - I struggle to share my emotions
+    - I find it hard to talk about my feelings
+    - I don't know what I'm feeling
+    - I can't describe my emotions
+    - I have trouble expressing myself
+    - I don't know how to say what I feel
+    - I feel like I can't open up
+    - I feel like nobody understands my feelings
+    - I feel like I have to hide my emotions
+    - I feel like I can't be honest about my feelings
+    - I feel like my emotions are too much
+    - I feel like I can't talk to anyone
+    - I feel like I'm bottling up my feelings
+    - I feel like I'm not allowed to feel this way
+    - I feel like I'm alone with my emotions
+    - I feel like I can't share my pain
+    - I feel like I can't be vulnerable
+    - I feel like I can't trust anyone with my feelings
+
+- intent: overwhelmed_by_criticism
+  examples: |
+    - I get overwhelmed when people criticize me.
+    - Criticism makes me feel terrible.
+    - I can't handle negative feedback.
+
+- intent: become_self_aware
+  examples: |
+    - How do I become more self-aware?
+    - I want to understand myself better
+    - How can I notice my emotions?
+    - How do I know what I'm feeling?
+    - How can I be more aware of my thoughts?
+    - I want to be more mindful
+    - How do I reflect on myself?
+    - How can I improve my self-awareness?
+    - I want to know myself better
+    - How do I pay attention to my feelings?
+    - How do I become more conscious of my actions?
+    - How do I learn about myself?
+    - How do I recognize my patterns?
+    - How do I become more in tune with myself?
+    - How do I notice my triggers?
+    - How do I become more present?
+    - How do I observe my thoughts without judgment?
+    - How do I become more emotionally intelligent?
+    - How do I understand my reactions?
+    - How do I become more honest with myself?
+
+- intent: understand_others
+  examples: |
+    - I have trouble understanding how others feel.
+    - I can't read other people's emotions.
+    - How do I become more empathetic?
+
+- intent: anger_issues
+  examples: |
+    - I get angry too quickly.
+    - I have a short temper.
+    - I can't control my anger.
+
+- intent: handle_emotional_people
+  examples: |
+    - How can I handle emotional people?
+    - I don't know what to do when others are upset.
+    - How do I deal with people who are very emotional?
+
+- intent: emotionally_disconnected
+  examples: |
+    - I feel emotionally disconnected from people.
+    - I can't connect with others emotionally.
+    - I feel distant from everyone.
+
+- intent: bad_at_conflict
+  examples: |
+    - I'm bad at resolving conflicts.
+    - I can't handle arguments.
+    - I avoid conflict because I don't know what to do.
+
+- intent: raise_emotional_intelligence
+  examples: |
+    - How can I raise my emotional intelligence?
+    - How do I become more emotionally intelligent?
+    - I want to improve my EQ.
+
+- intent: out_of_scope
+  examples: |
+    - asdfghjkl
+    - I don't know what to say
+    - random text
+    - something else
+    - what is the weather
+    - tell me a joke
+    - can you dance
+    - what is your name
+    - who made you
+    - do you like pizza
+    - what is 2+2
+    - say something funny
+    - what's up
+    - do you have a pet
+    - can you help me with math
+    - do you play games
+    - what is your favorite color
+    - do you sleep
+    - are you real
+    - do you have feelings
+    - can you sing
+
+- intent: feeling_overwhelmed
+  examples: |
+    - I feel overwhelmed by everything
+    - Life is too much right now
+    - I can't handle all this stress
+    - Everything is piling up on me
+    - I feel like I'm drowning in responsibilities
+
+- intent: feeling_guilty
+  examples: |
+    - I feel guilty all the time
+    - I can't forgive myself for my mistakes
+    - I regret what I did
+    - I feel bad about my choices
+    - I blame myself for everything
+
+- intent: feeling_jealous
+  examples: |
+    - I feel jealous of my friends
+    - I can't help but compare myself to others
+    - I wish I had what they have
+    - I feel envious
+    - I get jealous easily
+
+- intent: feeling_confused
+  examples: |
+    - I feel confused about my life
+    - I don't know what to do next
+    - I'm lost and unsure
+    - I can't make sense of my feelings
+    - Everything feels unclear
+
+- intent: feeling_left_out
+  examples: |
+    - I feel left out by my friends
+    - I don't feel included
+    - I feel like an outsider
+    - People exclude me
+    - I feel like I don't belong
+
+- intent: feeling_burned_out
+  examples: |
+    - I feel burned out
+    - I have no energy left
+    - I'm exhausted all the time
+    - I can't keep up anymore
+    - I feel drained
+
+- intent: feeling_insecure
+  examples: |
+    - I feel insecure about myself
+    - I doubt my abilities
+    - I don't feel good enough
+    - I compare myself to others
+    - I lack confidence
+
+- intent: feeling_lonely_in_crowd
+  examples: |
+    - I feel lonely even when I'm with people
+    - I feel alone in a crowd
+    - I can't connect with anyone
+    - I feel isolated at parties
+    - I feel invisible in groups
+
+- intent: feeling_stuck
+  examples: |
+    - I feel stuck in life
+    - I can't move forward
+    - I'm not making progress
+    - I feel trapped
+    - I don't know how to change my situation
+
+- intent: feeling_unappreciated
+  examples: |
+    - I feel unappreciated at work
+    - Nobody values what I do
+    - I feel taken for granted
+    - I don't get recognized for my efforts
+    - I feel invisible at home
+
+- intent: feeling_afraid_of_future
+  examples: |
+    - I'm afraid of the future
+    - I worry about what's coming next
+    - The future scares me
+    - I feel anxious about tomorrow
+    - I can't stop thinking about what might happen
+
+- intent: feeling_rejected
+  examples: |
+    - I feel rejected by my friends
+    - I was left out of the group
+    - I feel like nobody wants me around
+    - I feel unwanted
+    - I feel like I don't belong anywhere
+
+- intent: feeling_hopeless
+  examples: |
+    - I feel hopeless about my future
+    - I can't see things getting better
+    - I feel like giving up hope
+    - I feel like nothing will ever change
+    - I feel like there's no point in trying
+
+- intent: feeling_shy
+  examples: |
+    - I am too shy to talk to people
+    - I feel nervous in social situations
+    - I can't speak up in groups
+    - I feel awkward around new people
+    - I am afraid to introduce myself
+
+- intent: feeling_grateful
+  examples: |
+    - I feel grateful for my family
+    - I am thankful for my friends
+    - I appreciate the little things in life
+    - I am feeling blessed today
+    - I want to express my gratitude
+
+- intent: feeling_proud
+  examples: |
+    - I am proud of myself
+    - I accomplished something big
+    - I feel good about my achievements
+    - I want to celebrate my progress
+    - I am happy with what I've done

@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "cd client && npm start"
+  },
+  "dependencies": {
+    "@rasahq/rasa-webchat": "^0.0.11",
+    "axios": "^1.10.0",
+    "firebaseui": "^6.1.0"
+  }
+}

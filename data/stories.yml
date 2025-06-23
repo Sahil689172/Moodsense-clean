@@ -1,0 +1,435 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: suggest activity
+  steps:
+  - intent: suggest_activity
+  - action: utter_suggest_activity
+
+- story: help with anxiety
+  steps:
+  - intent: express_anxiety
+  - action: utter_express_anxiety
+
+- story: help with sadness
+  steps:
+  - intent: express_sadness
+  - action: utter_express_sadness
+
+- story: work stress support
+  steps:
+  - intent: work_stress
+  - action: utter_work_stress
+
+- story: body image support
+  steps:
+  - intent: body_image
+  - action: utter_body_image
+
+- story: lack motivation support
+  steps:
+  - intent: lack_motivation
+  - action: utter_lack_motivation
+
+- story: depression support
+  steps:
+  - intent: depression
+  - action: utter_depression
+
+- story: anxiety support
+  steps:
+  - intent: anxiety
+  - action: utter_anxiety
+
+- story: relationship conflict support
+  steps:
+  - intent: relationship_conflict
+  - action: utter_relationship_conflict
+
+- story: loneliness support
+  steps:
+  - intent: loneliness
+  - action: utter_loneliness
+
+- story: sleep problems support
+  steps:
+  - intent: sleep_problems
+  - action: utter_sleep_problems
+
+- story: grief support
+  steps:
+  - intent: grief
+  - action: utter_grief
+
+- story: social comparison support
+  steps:
+  - intent: social_comparison
+  - action: utter_social_comparison
+
+- story: burnout support
+  steps:
+  - intent: burnout
+  - action: utter_burnout
+
+- story: fear of failure support
+  steps:
+  - intent: fear_of_failure
+  - action: utter_fear_of_failure
+
+- story: breakup support
+  steps:
+  - intent: breakup
+  - action: utter_breakup
+
+- story: overthinking support
+  steps:
+  - intent: overthinking
+  - action: utter_overthinking
+
+- story: imposter syndrome support
+  steps:
+  - intent: imposter_syndrome
+  - action: utter_imposter_syndrome
+
+- story: fear of rejection support
+  steps:
+  - intent: fear_of_rejection
+  - action: utter_fear_of_rejection
+
+- story: anger management support
+  steps:
+  - intent: anger_management
+  - action: utter_anger_management
+
+- story: self esteem support
+  steps:
+  - intent: self_esteem
+  - action: utter_self_esteem
+
+- story: perfectionism support
+  steps:
+  - intent: perfectionism
+  - action: utter_perfectionism
+
+- story: trauma support
+  steps:
+  - intent: trauma
+  - action: utter_trauma
+
+- story: addiction support
+  steps:
+  - intent: addiction
+  - action: utter_addiction
+
+- story: suicidal thoughts support
+  steps:
+  - intent: suicidal_thoughts
+  - action: utter_suicidal_thoughts
+
+- story: regret quick decisions
+  steps:
+  - intent: regret_quick_decisions
+  - action: utter_regret_quick_decisions
+
+- story: repeat mistakes
+  steps:
+  - intent: repeat_mistakes
+  - action: utter_repeat_mistakes
+
+- story: first impressions
+  steps:
+  - intent: first_impressions
+  - action: utter_first_impressions
+
+- story: money decisions
+  steps:
+  - intent: money_decisions
+  - action: utter_money_decisions
+
+- story: framing effect
+  steps:
+  - intent: framing_effect
+  - action: utter_framing_effect
+
+- story: sunk cost
+  steps:
+  - intent: sunk_cost
+  - action: utter_sunk_cost
+
+- story: trust instincts
+  steps:
+  - intent: trust_instincts
+  - action: utter_trust_instincts
+
+- story: negativity bias
+  steps:
+  - intent: negativity_bias
+  - action: utter_negativity_bias
+
+- story: illusion of validity
+  steps:
+  - intent: illusion_of_validity
+  - action: utter_illusion_of_validity
+
+- story: decision fatigue
+  steps:
+  - intent: decision_fatigue
+  - action: utter_decision_fatigue
+
+- story: meaninglessness support
+  steps:
+  - intent: meaninglessness
+  - action: utter_meaninglessness
+
+- story: enduring suffering support
+  steps:
+  - intent: enduring_suffering
+  - action: utter_enduring_suffering
+
+- story: emptiness crisis support
+  steps:
+  - intent: emptiness_crisis
+  - action: utter_emptiness_crisis
+
+- story: loss and meaning support
+  steps:
+  - intent: loss_and_meaning
+  - action: utter_loss_and_meaning
+
+- story: job misery support
+  steps:
+  - intent: job_misery
+  - action: utter_job_misery
+
+- story: staying strong support
+  steps:
+  - intent: staying_strong
+  - action: utter_staying_strong
+
+- story: lost identity support
+  steps:
+  - intent: lost_identity
+  - action: utter_lost_identity
+
+- story: hope in dark times support
+  steps:
+  - intent: hope_in_dark_times
+  - action: utter_hope_in_dark_times
+
+- story: want to feel alive support
+  steps:
+  - intent: want_to_feel_alive
+  - action: utter_want_to_feel_alive
+
+- story: suffering and strength support
+  steps:
+  - intent: suffering_and_strength
+  - action: utter_suffering_and_strength
+
+- story: dwelling on past support
+  steps:
+  - intent: dwelling_on_past
+  - action: utter_dwelling_on_past
+
+- story: worrying about future support
+  steps:
+  - intent: worrying_about_future
+  - action: utter_worrying_about_future
+
+- story: feeling disconnected support
+  steps:
+  - intent: feeling_disconnected
+  - action: utter_feeling_disconnected
+
+- story: want to escape thoughts support
+  steps:
+  - intent: want_to_escape_thoughts
+  - action: utter_want_to_escape_thoughts
+
+- story: negative voice support
+  steps:
+  - intent: negative_voice
+  - action: utter_negative_voice
+
+- story: always in rush support
+  steps:
+  - intent: always_in_rush
+  - action: utter_always_in_rush
+
+- story: control issues support
+  steps:
+  - intent: control_issues
+  - action: utter_control_issues
+
+- story: feeling incomplete support
+  steps:
+  - intent: feeling_incomplete
+  - action: utter_feeling_incomplete
+
+- story: overwhelmed by emotions support
+  steps:
+  - intent: overwhelmed_by_emotions
+  - action: utter_overwhelmed_by_emotions
+
+- story: living in now support
+  steps:
+  - intent: living_in_now
+  - action: utter_living_in_now
+
+- story: lose control of emotions support
+  steps:
+  - intent: lose_control_emotions
+  - action: utter_lose_control_emotions
+
+- story: express feelings support
+  steps:
+  - intent: express_feelings
+  - action: utter_express_feelings
+
+- story: overwhelmed by criticism support
+  steps:
+  - intent: overwhelmed_by_criticism
+  - action: utter_overwhelmed_by_criticism
+
+- story: become self aware support
+  steps:
+  - intent: become_self_aware
+  - action: utter_become_self_aware
+
+- story: understand others support
+  steps:
+  - intent: understand_others
+  - action: utter_understand_others
+
+- story: anger issues support
+  steps:
+  - intent: anger_issues
+  - action: utter_anger_issues
+
+- story: handle emotional people support
+  steps:
+  - intent: handle_emotional_people
+  - action: utter_handle_emotional_people
+
+- story: emotionally disconnected support
+  steps:
+  - intent: emotionally_disconnected
+  - action: utter_emotionally_disconnected
+
+- story: bad at conflict support
+  steps:
+  - intent: bad_at_conflict
+  - action: utter_bad_at_conflict
+
+- story: raise emotional intelligence support
+  steps:
+  - intent: raise_emotional_intelligence
+  - action: utter_raise_emotional_intelligence
+
+- story: feeling overwhelmed support
+  steps:
+  - intent: feeling_overwhelmed
+  - action: utter_feeling_overwhelmed
+
+- story: feeling guilty support
+  steps:
+  - intent: feeling_guilty
+  - action: utter_feeling_guilty
+
+- story: feeling jealous support
+  steps:
+  - intent: feeling_jealous
+  - action: utter_feeling_jealous
+
+- story: feeling confused support
+  steps:
+  - intent: feeling_confused
+  - action: utter_feeling_confused
+
+- story: feeling left out support
+  steps:
+  - intent: feeling_left_out
+  - action: utter_feeling_left_out
+
+- story: feeling burned out support
+  steps:
+  - intent: feeling_burned_out
+  - action: utter_feeling_burned_out
+
+- story: feeling insecure support
+  steps:
+  - intent: feeling_insecure
+  - action: utter_feeling_insecure
+
+- story: feeling lonely in crowd support
+  steps:
+  - intent: feeling_lonely_in_crowd
+  - action: utter_feeling_lonely_in_crowd
+
+- story: feeling stuck support
+  steps:
+  - intent: feeling_stuck
+  - action: utter_feeling_stuck
+
+- story: feeling unappreciated support
+  steps:
+  - intent: feeling_unappreciated
+  - action: utter_feeling_unappreciated
+
+- story: feeling afraid of future support
+  steps:
+  - intent: feeling_afraid_of_future
+  - action: utter_feeling_afraid_of_future
+
+- story: feeling rejected support
+  steps:
+  - intent: feeling_rejected
+  - action: utter_feeling_rejected
+
+- story: feeling hopeless support
+  steps:
+  - intent: feeling_hopeless
+  - action: utter_feeling_hopeless
+
+- story: feeling shy support
+  steps:
+  - intent: feeling_shy
+  - action: utter_feeling_shy
+
+- story: feeling grateful support
+  steps:
+  - intent: feeling_grateful
+  - action: utter_feeling_grateful
+
+- story: feeling proud support
+  steps:
+  - intent: feeling_proud
+  - action: utter_feeling_proud

@@ -1,0 +1,11 @@
+Moodsense/
+│
+├── .gitignore      <-- Place it here!
+├── client/
+│   └── ...         (your React app)
+├── server/
+│   └── ...         (your Node/Express backend)
+├── models/
+├── data/
+└── ... (other files/folders)
+node_modules
