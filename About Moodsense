@@ -1,0 +1,36 @@
+1. Moodsense is a modern, AI-powered web application designed to help users maintain a private, date-based digital journal and 
+receive conversational support through an integrated chatbot. The platform emphasizes privacy, ease of use, and mental wellness, 
+allowing users to write, save, and revisit journal entries for any date, all secured by user authentication. The chatbot, powered by Rasa, 
+offers encouragement and support, making journaling more interactive and engaging.
+
+2. Tech Stack Used
+
+Frontend:
+React (UI library)
+Tailwind CSS (utility-first CSS framework)
+React Datepicker (date selection component)
+
+Backend:
+Node.js (JavaScript runtime)
+Express (web server framework)
+Firebase Admin SDK (for secure server-side access to Firebase)
+Database & Auth:
+Firebase Firestore (NoSQL cloud database)
+Firebase Authentication (user login and security)
+
+Chatbot:
+Rasa (open-source conversational AI framework, Python-based)
+Other Tools:
+Git & GitHub (version control and collaboration)
+VS Code/Cursor (code editor)
+(Optional) Python virtual environment for Rasa
+
+3. Key Features
+
+Date-based Journaling: Users can create, view, and edit journal entries for any date using a calendar picker.
+Private & Secure: Only authenticated users can access their own journals; all data is stored securely in Firestore.
+Chatbot Support: Integrated Rasa chatbot provides conversational support and encouragement.
+Modern UI: Clean, responsive, and user-friendly interface with notepad-inspired design and password visibility toggle.
+Seamless Integration: Smooth connection between frontend, backend, and Firebase for a unified experience.
+
+
