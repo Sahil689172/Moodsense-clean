@@ -1,9 +1,11 @@
 FROM python:3.8-slim
 
-# Install build dependencies
-RUN apt-get update && apt-get install -y gcc git
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y gcc git build-essential libpq-dev libffi-dev libssl-dev python3-dev && \
+    apt-get clean
 
-# Install Rasa
+# Upgrade pip and install Rasa
 RUN pip install --upgrade pip
 RUN pip install rasa
 
