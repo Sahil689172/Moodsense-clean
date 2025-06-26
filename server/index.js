@@ -4,7 +4,7 @@ const admin = require('./firebase');
 const axios = require('axios');
 require('dotenv').config();
 
-const serviceAccount = require('./serviceAccountKey.json.json');
+const serviceAccount = require('./serviceAccountKey.json');
 const authenticate = require('./middleaware/auth');
 
 const db = admin.firestore();
@@ -49,13 +49,14 @@ app.get('/api/moods', authenticate, async (req, res) => {
 
 app.post('/chat', async (req, res) => {
   const { message } = req.body;
+  console.log('Received message from UI:', message);
   try {
-    const rasaRes = await axios.post('http://localhost:5005/webhooks/rest/webhook', {
+    const rasaRes = await axios.post('http://127.0.0.1:5005/webhooks/rest/webhook', {
       sender: "user",
       message: message
     });
-    console.log('Rasa response:', rasaRes.data);
-    const reply = rasaRes.data.length > 0 ? rasaRes.data[0].text : "Sorry, I didn't understand that.";
+    console.log('Full Rasa response:', JSON.stringify(rasaRes.data, null, 2));
+    const reply = rasaRes.data.length > 0 && rasaRes.data[0].text ? rasaRes.data[0].text : "Sorry, I didn't understand that.";
     res.json({ reply });
   } catch (err) {
     console.error('Error from Rasa:', err);
@@ -68,6 +69,7 @@ app.post('/api/journal', authenticate, async (req, res) => {
   const { date, content } = req.body;
   const userId = req.user.uid;
   if (!date || !content) {
+    console.error('Missing date or content:', { date, content });
     return res.status(400).json({ message: 'Date and content are required.' });
   }
   try {
@@ -75,6 +77,7 @@ app.post('/api/journal', authenticate, async (req, res) => {
     await entryRef.set({ content, date });
     res.status(200).json({ message: 'Journal entry saved!' });
   } catch (error) {
+    console.error('Error saving journal entry:', error);
     res.status(500).json({ message: 'Error saving journal entry', error });
   }
 });
@@ -88,6 +91,7 @@ app.get('/api/journal', authenticate, async (req, res) => {
     const entries = snapshot.docs.map(doc => ({ date: doc.id, ...doc.data() }));
     res.status(200).json(entries);
   } catch (error) {
+    console.error('Error fetching journal entries:', error);
     res.status(500).json({ message: 'Error fetching journal entries', error });
   }
 });

@@ -1,0 +1,1110 @@
+version: '3.1'
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- suggest_activity
+- bot_challenge
+- express_anxiety
+- express_sadness
+- work_stress
+- body_image
+- lack_motivation
+- depression
+- anxiety
+- relationship_conflict
+- loneliness
+- sleep_problems
+- grief
+- social_comparison
+- burnout
+- fear_of_failure
+- breakup
+- overthinking
+- imposter_syndrome
+- fear_of_rejection
+- anger_management
+- self_esteem
+- perfectionism
+- trauma
+- addiction
+- suicidal_thoughts
+- regret_quick_decisions
+- repeat_mistakes
+- first_impressions
+- money_decisions
+- framing_effect
+- sunk_cost
+- trust_instincts
+- negativity_bias
+- illusion_of_validity
+- decision_fatigue
+- meaninglessness
+- enduring_suffering
+- emptiness_crisis
+- loss_and_meaning
+- job_misery
+- staying_strong
+- lost_identity
+- hope_in_dark_times
+- want_to_feel_alive
+- suffering_and_strength
+- dwelling_on_past
+- worrying_about_future
+- feeling_disconnected
+- want_to_escape_thoughts
+- negative_voice
+- always_in_rush
+- control_issues
+- feeling_incomplete
+- overwhelmed_by_emotions
+- living_in_now
+- lose_control_emotions
+- express_feelings
+- overwhelmed_by_criticism
+- become_self_aware
+- understand_others
+- anger_issues
+- handle_emotional_people
+- emotionally_disconnected
+- bad_at_conflict
+- raise_emotional_intelligence
+- feeling_overwhelmed
+- feeling_guilty
+- feeling_jealous
+- feeling_confused
+- feeling_left_out
+- feeling_burned_out
+- feeling_insecure
+- feeling_lonely_in_crowd
+- feeling_stuck
+- feeling_unappreciated
+- feeling_afraid_of_future
+- feeling_rejected
+- feeling_hopeless
+- feeling_shy
+- feeling_grateful
+- feeling_proud
+- coping_with_family_pressure
+- struggling_with_identity
+- loneliness_in_crowds
+- fear_of_future
+- dealing_with_rejection
+- overthinking_everything
+- feeling_empty
+- trust_issues_from_past
+- feeling_left_behind
+- fear_of_being_a_burden
+- self_hate_or_low_self_worth
+- guilt_over_past_mistakes
+- social_media_anxiety
+- fear_of_abandonment
+- academic_or_career_burnout
+- comparison_with_others
+- feeling_unseen_or_ignored
+- missing_someone
+- body_image_issues
+- feeling_unmotivated
+- anxiety_in_social_situations
+- feeling_stuck_in_life
+- emotional_overload
+- wanting_to_disappear
+- feeling_invisible
+- dealing_with_change
+- not_feeling_good_enough
+- fear_of_judgment
+- dealing_with_lack_of_closure
+- fear_of_being_replaced
+- overcommitting_to_please_others
+- pain_of_long_distance_relationship
+- regret_over_missed_opportunities
+- fear_of_opening_up
+- pressure_to_be_happy
+- feeling_like_a_failure
+- grieving_a_pet_loss
+- shame_about_emotions
+- feeling_unloved
+- trauma_flashbacks
+- struggling_with_forgiveness
+- feeling_different_neurodivergent
+- adhd_organization_struggles
+- confused_about_gender_identity
+- family_not_accepting_trans_identity
+- torn_between_two_cultures
+- suffocated_by_family_traditions
+- brain_wont_shut_off_at_night
+- guilt_for_sleeping_too_much
+- only_feel_free_when_creating
+- art_feels_meaningless_lately
+- failing_as_a_parent
+- emotionally_exhausted_by_parenting
+- lost_without_online_persona
+- feel_fake_on_social_media
+- hopeless_due_to_health_issues
+- people_dont_understand_chronic_illness
+- every_decision_feels_life_or_death
+- overthinking_every_little_thing
+- hopeless_about_future_of_planet
+- climate_change_anxiety_daily
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: That's wonderful to hear! What made you feel happy today?
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_suggest_activity:
+  - text: How about going for a walk, reading a book, or trying a new recipe? If you
+      want something creative, you could draw, write, or listen to music!
+  utter_express_anxiety:
+  - text: It's normal to feel anxious before exams. Would you like some tips to manage
+      your anxiety?
+  utter_express_sadness:
+  - text: I'm sorry you're feeling this way. Would you like to talk about it or hear
+      some ways to feel better?
+  utter_work_stress:
+    - text: "That must have been incredibly tough and embarrassing.\n\nRemember, one bad moment doesn't define your whole career.\n\nTake a moment to breathe and ground yourself.\n\nYou did what you could. Try to focus on what's within your control."
+  utter_body_image:
+    - text: "It's okay to feel uncomfortable in your body sometimes.\n\nTry to focus on feeling healthier rather than just looking different.\n\nSmall steps like walking or mindful eating can make a big difference.\n\nYou deserve compassion, especially from yourself."
+  utter_lack_motivation:
+    - text: "Motivation isn't something you wait for—it's something you build.\n\nStart with just 5 minutes of movement, no pressure.\n\nEven the smallest step can shift your energy.\n\nYou'll feel better for trying, not for being perfect."
+  utter_depression:
+    - text: "That emptiness can feel endless, but it won't last forever.\n\nTry to do just one small thing you used to enjoy.\n\nReach out to someone—even a simple message helps.\n\nYou don't have to face this alone. You're not broken."
+  utter_anxiety:
+    - text: "Anxiety before tests is very normal.\n\nTake deep breaths, study in short bursts, and prioritize sleep.\n\nYou've prepared more than you think.\n\nTrust your effort, not your fear."
+  utter_relationship_conflict:
+    - text: "Conflict in relationships can feel emotionally exhausting.\n\nTake a moment to reflect before reacting further.\n\nWhen you're both calmer, express your feelings without blame.\n\nRelationships grow through honest and respectful communication.\n\nGive yourself grace while navigating difficult emotions."
+  utter_loneliness:
+    - text: "Loneliness can feel crushing, but it doesn't mean you're unworthy.\n\nTry reaching out to even one person—it can change your day.\n\nYou matter, even if it feels like no one sees it right now.\n\nConnection often starts with a simple 'hello.'"
+  utter_sleep_problems:
+  - text: I'm sorry you're having trouble sleeping. Try a calming bedtime routine,
+      limit screens before bed, and consider writing down your thoughts. Sometimes
+      overthinking or stress can make sleep difficult—would you like to talk more
+      about that?
+  utter_grief:
+    - text: "Grief is not something you 'get over'—it's something you learn to carry.\n\nAllow yourself to feel everything without judgment.\n\nTalking about your loved one or writing about your feelings can help.\n\nBe gentle with yourself—healing doesn't have a deadline.\n\nYou're not alone. Reach out if it feels too heavy to hold."
+  utter_social_comparison:
+    - text: "It's easy to feel that way when we only see others' highlights.\n\nYou are on your own unique path, and that's okay.\n\nProgress isn't always visible, but that doesn't mean it's not happening.\n\nTry focusing on one goal that matters to you—not what others expect.\n\nYour time will come. Keep going."
+  utter_burnout:
+    - text: "Burnout is your body and mind asking for rest, not laziness.\n\nGive yourself permission to slow down without guilt.\n\nStart with small acts of self-care—even 10 minutes helps.\n\nDisconnect from screens, noise, or responsibilities if possible.\n\nYou don't have to do everything. Just one thing at a time is enough."
+  utter_fear_of_failure:
+  - text: "That fear is natural, especially when you care deeply"
+
+      But remember—failure is feedback, not a final sentence.
+
+      You're allowed to make mistakes and still be worthy.
+
+      What matters is learning and trying again.
+
+      Don't aim for perfect—aim for progress.
+
+      '
+  utter_breakup:
+  - text: "Heartbreak is painful, and it's okay to grieve it fully"
+
+      Let your emotions flow without rushing the healing.
+
+      Focus on caring for yourself in small ways each day.
+
+      This chapter is ending, but you will write new ones.
+
+      '
+  utter_overthinking:
+  - text: "Overthinking can make small things feel huge"
+
+      Pause and ask yourself: is this helping or hurting?
+
+      Journaling or grounding can break the cycle.
+
+      You deserve peace from your own thoughts.
+
+      '
+  utter_imposter_syndrome:
+  - text: "Many people feel like imposters, even when they're doing well. Remember"
+      your feelings don't define your abilities. You earned your place through effort
+      and growth. It's okay to have doubts—just don't let them stop you from moving
+      forward.
+
+      '
+  utter_fear_of_rejection:
+  - text: "The fear of rejection is tough, but it doesn't define your worth. No"
+      everyone will connect, and that's okay. Be yourself and you'll attract the
+      right people. Taking risks in connection is brave and important for growth.
+
+      '
+  utter_anger_management:
+  - text: "Anger is a normal emotion, but it can feel overwhelming. Try to pause an"
+      take deep breaths when you notice anger rising. It's okay to step away and
+      cool down. If you regret something you said or did, remember that everyone makes
+      mistakes—what matters is learning and making amends.
+
+      '
+  utter_self_esteem:
+  - text: "Self-worth isn't measured by achievements or others' opinions. Try t"
+      notice your strengths and be gentle with your self-talk. Confidence grows with
+      small, positive actions and self-acceptance. You are valuable just as you are.
+
+      '
+  utter_perfectionism:
+  - text: "Perfection is impossible, and striving for it can be exhausting. Mistake"
+      are part of learning and growth. Try to set realistic goals and celebrate progress,
+      not just outcomes. You are enough, even when things aren't perfect.
+
+      '
+  utter_trauma:
+  - text: "Healing from trauma takes time and patience. Flashbacks and difficult memorie"
+      are your mind's way of processing. Be gentle with yourself and seek support
+      if you need it. You're not alone, and recovery is possible.
+
+      '
+  utter_addiction:
+  - text: "Breaking a habit or addiction is challenging, but every step counts. Tr"
+      to notice your triggers and replace habits with healthier alternatives. Don't
+      hesitate to reach out for support—you're not alone in this journey.
+
+      '
+  utter_suicidal_thoughts:
+  - text: "I'm really sorry you're feeling this way. Please know that you're no"
+      alone, and there are people who care and want to help. If you're in crisis,
+      consider reaching out to a mental health professional or a helpline immediately.
+      Your feelings matter, and support is available.
+
+      '
+  utter_regret_quick_decisions:
+  - text: "That's your System 1 at work—quick, intuitive, but not always accurate"
+
+      Try pausing before big decisions. Even a few seconds of reflection engages your
+      slower, more logical System 2.
+
+      The goal isn't to eliminate fast thinking, but to know when it needs to be
+      slowed down.
+
+      '
+  utter_repeat_mistakes:
+  - text: "Knowing and doing often live in different systems of your mind"
+
+      System 1 relies on habit, so real change needs repetition and reflection.
+
+      Use journaling or post-action reviews to help System 2 step in more often.
+
+      '
+  utter_first_impressions:
+  - text: "First impressions are System 1's specialty—quick but not always right"
+
+      Train yourself to delay judgment and ask questions.
+
+      Let your slower thinking override snap conclusions.
+
+      '
+  utter_money_decisions:
+  - text: "Cognitive biases like loss aversion and anchoring often affect money choices"
+
+      Try setting predefined rules before making financial decisions.
+
+      Logic works best when it's planned in calm, not heat.
+
+      '
+  utter_framing_effect:
+  - text: "This is called the framing effect"
+
+      Same data, different wording, different decision.
+
+      Pause and reframe the situation in your own words to see the truth behind the
+      presentation.
+
+      '
+  utter_sunk_cost:
+  - text: "That's the sunk cost fallacy—it makes you value past effort more tha"
+      future gain.
+
+      Ask: "If I hadn't started this already, would I begin now?"
+
+      Free yourself from the weight of past effort.
+
+      '
+  utter_trust_instincts:
+  - text: "Instincts are helpful, but not always accurate"
+
+      System 1 works fast but can be biased.
+
+      Balance instinct with a quick pause: ask yourself, "What else could be true?"
+
+      '
+  utter_negativity_bias:
+  - text: "Your brain evolved to notice threats—this is the negativity bias"
+
+      Try daily gratitude or positive journaling to retrain your attention.
+
+      You're not negative—you're human, and you can rewire your focus.
+
+      '
+  utter_illusion_of_validity:
+  - text: "This is the illusion of validity—a classic bias"
+
+      Confidence doesn't always mean correctness.
+
+      Stay curious. When in doubt, ask, "What would disprove this idea?"
+
+      '
+  utter_decision_fatigue:
+  - text: "That's decision fatigue—System 2 gets tired"
+
+      Simplify your choices or set time blocks to reduce overwhelm.
+
+      The more decisions you make, the more mental energy you burn—save it for what
+      matters most.
+
+      '
+  utter_dwelling_on_past:
+  - text: "The mind loves to dwell on what was, but healing lives in the now"
+
+      You can't change the past, but you can change how it lives in you.
+
+      Try grounding techniques—breathe, feel your feet on the floor, observe without
+      judgment.
+
+      This moment is your doorway to peace.
+
+      '
+  utter_worrying_about_future:
+  - text: "Anxiety is often a byproduct of leaving the present"
+
+      Your mind jumps ahead, but your body is always here—use it as an anchor.
+
+      Focus on the task, the breath, the now.
+
+      Worry dissolves when attention returns to this moment.
+
+      '
+  utter_feeling_disconnected:
+  - text: "Disconnection often means you're caught in thought, not presence"
+
+      Try noticing the world around you—the colors, the sounds, your breath.
+
+      Awareness reconnects you to life.
+
+      The present moment welcomes you back.
+
+      '
+  utter_want_to_escape_thoughts:
+  - text: "You are not your thoughts—you are the awareness that sees them"
+
+      Let thoughts come and go like clouds across the sky.
+
+      Return to stillness between them.
+
+      That's where your true self lives.
+
+      '
+  utter_negative_voice:
+  - text: "That voice is the ego, always fearing and judging"
+
+      Don't fight it—observe it.
+
+      The moment you notice it, you're already free from its grip.
+
+      Silence grows in the space between thoughts.
+
+      '
+  utter_always_in_rush:
+  - text: "Rushing disconnects you from the moment"
+
+      Try slowing down your breath, your walking, your attention.
+
+      Life is not a finish line—it's happening now.
+
+      When you slow down, peace catches up.
+
+      '
+  utter_control_issues:
+  - text: "Control is the ego's way of avoiding uncertainty"
+
+      But life isn't meant to be controlled—it's meant to be experienced.
+
+      Let go of the outcome, return to the process.
+
+      Peace is found in surrender, not struggle.
+
+      '
+  utter_feeling_incomplete:
+  - text: "The ego always seeks more to feel whole"
+
+      But you are already complete in this moment.
+
+      Pause, breathe, feel your presence—this is enough.
+
+      You don't need to become anything to be enough.
+
+      '
+  utter_overwhelmed_by_emotions:
+  - text: "Emotions aren't who you are—they're experiences passing through"
+
+      Let yourself feel without drowning.
+
+      Name the emotion, breathe through it, and stay present.
+
+      You are the sky, not the weather.
+
+      '
+  utter_living_in_now:
+  - text: "Living in the now means waking up to what's already here"
+
+      It's noticing your breath, the texture of your thoughts, the presence beneath
+      pain.
+
+      It's choosing peace over projection, awareness over avoidance.
+
+      Now is where life truly is.
+
+      '
+  utter_lose_control_emotions:
+  - text: "Emotional intelligence isn't about suppressing emotions—it's about recognizin"
+      and managing them.
+
+      Start by naming what you feel. Labeling emotions helps reduce their intensity.
+
+      Then pause and breathe before acting. This gives your mind time to respond,
+      not react.
+
+      '
+  utter_express_feelings:
+  - text: "Many people weren't taught emotional vocabulary"
+
+      Start with basic labels like sad, angry, anxious, or calm.
+
+      Use "I feel..." statements to share without blame.
+
+      Expressing feelings builds connection and inner clarity.
+
+      '
+  utter_overwhelmed_by_criticism:
+  - text: "Criticism often hits emotional triggers"
+
+      Try pausing before reacting—ask if the feedback is useful or just noise.
+
+      Not all feedback defines you. Emotionally intelligent people respond with clarity,
+      not defensiveness.
+
+      '
+  utter_become_self_aware:
+  - text: "Self-awareness grows from quiet reflection"
+
+      Notice how your emotions show up in your body and actions.
+
+      Journaling or mindfulness can help reveal patterns.
+
+      Awareness is the first step to growth.
+
+      '
+  utter_understand_others:
+  - text: "That's a gap in empathy—but it's a skill you can grow"
+
+      Start by truly listening, without thinking of your reply.
+
+      Look at their expressions, tone, and energy.
+
+      Ask gently, "How are you feeling right now?"
+
+      '
+  utter_anger_issues:
+  - text: "Anger often hides deeper emotions like fear, hurt, or frustration"
+
+      Try to identify the real need behind the anger.
+
+      Walk away if needed, then revisit the issue calmly.
+
+      You don't need to suppress anger—just express it wisely.
+
+      '
+  utter_handle_emotional_people:
+  - text: "Emotional intelligence means regulating yourself first"
+
+      Stay calm, validate their feelings, and don't take their reaction personally.
+
+      Your calm energy helps them co-regulate.
+
+      Boundaries and empathy work best together.
+
+      '
+  utter_emotionally_disconnected:
+  - text: "Disconnection can come from overthinking or past hurt"
+
+      Try focusing on shared feelings or stories, not just logic.
+
+      Ask open questions and be curious, not just correct.
+
+      Emotional connection starts with presence.
+
+      '
+  utter_bad_at_conflict:
+  - text: "Conflict resolution is a high form of emotional intelligence"
+
+      Begin with listening and naming your emotion without blame.
+
+      Use "I" statements and ask for their perspective.
+
+      Solutions grow in empathy, not ego.
+
+      '
+  utter_raise_emotional_intelligence:
+  - text: "Practice daily: name emotions, pause before reacting, listen deeply"
+
+      Read emotional cues—tone, posture, eyes.
+
+      Reflect on your behavior and learn from missteps.
+
+      With time, emotional intelligence becomes emotional wisdom.
+
+      '
+  utter_emptiness_crisis:
+  - text: "Emptiness can signal a crisis of meaning, not failure"
+
+      Even in your lowest moments, you are still capable of purpose.
+
+      Look for small things that give your day a sense of service or expression.
+
+      Sometimes, purpose is waiting quietly inside your pain.
+
+      '
+  utter_meaninglessness:
+  - text: "It's human to question meaning, especially during difficult times"
+
+      Meaning isn't something you find once—it's something you create again and
+      again.
+
+      Start by identifying what matters most to you, no matter how small.
+
+      Purpose can begin with one act of kindness, one small goal, one reason to get
+      up tomorrow.
+
+      '
+  utter_enduring_suffering:
+  - text: "Suffering becomes unbearable when it feels pointless"
+
+      Try to find a "why" that helps you endure the "how." It could be love, faith,
+      responsibility, or hope.
+
+      You don't have to like your pain, but you can outgrow it by assigning it meaning.
+
+      '
+  utter_lost_identity:
+  - text: "Our identity can feel shaken when roles or relationships change"
+
+      But who you are is not just what you do—it's also what you value.
+
+      Return to what lights you up, what breaks your heart, what feels meaningful.
+
+      Those are the roots of your real self.
+
+      '
+  utter_job_misery:
+  - text: "Even when you can't change your situation, you can change your relationshi"
+      with it.
+
+      Can you find a way to serve, grow, or connect—even in difficulty?
+
+      Reframe your work as a stepping stone or a challenge you endure for a future
+      goal.
+
+      Meaning comes from attitude, not just circumstances.
+
+      '
+  utter_want_to_feel_alive:
+  - text: "To feel alive, reconnect with meaning"
+
+      Start with what made you curious, inspired, or comforted before.
+
+      Even small routines can become rituals of aliveness.
+
+      Survival is step one—thriving begins with finding what you're willing to live
+      for.
+
+      '
+  utter_hope_in_dark_times:
+  - text: "Yes—hope isn't the denial of pain, it's the belief that pain has purpose"
+
+      Frankl found hope even in a concentration camp by focusing on love, memories,
+      and vision.
+
+      Find your thread—something or someone to live for—and follow it.
+
+      '
+  utter_loss_and_meaning:
+  - text: "Loss is one of life's deepest pains, and it's okay to not have answers.\n\nBut you can choose to honor their memory by how you live.\n\nLet their impact fuel something meaningful in your journey.\n\nThis doesn't erase your grief—but it can give it shape.\n"
+  utter_staying_strong:
+  - text: "Viktor Frankl believed that meaning—not comfort—is what keeps us going"
+
+      Ask yourself: Who needs me today? What values matter to me, even now?
+
+      Purpose doesn't remove pain, but it gives it dignity.
+
+      You are stronger than you think because you still care to ask.
+
+      '
+  utter_suffering_and_strength:
+  - text: "Suffering doesn't automatically make us stronger, but it can"
+
+      It depends on whether we reflect, heal, and transform.
+
+      Meaningful suffering can deepen empathy, reveal purpose, or fuel change.
+
+      You didn't choose this pain, but you can choose how you carry it.
+
+      '
+  utter_out_of_scope:
+  - text: I'm here to support you with your feelings and thoughts. Can you share more
+      about what's on your mind?
+  utter_default:
+  - text: I'm here for you. Can you tell me more about how you're feeling?
+  utter_feeling_overwhelmed:
+  - text: "Feeling overwhelmed is a sign you care deeply about your life.\n\nTry to break things down into small, manageable steps.\n\nRemember, you don't have to do everything at once.\n\nTake a deep breath and focus on one thing you can control right now.\n\nYou are stronger than you think, and it's okay to ask for help.\n"
+  utter_feeling_guilty:
+  - text: "Guilt is a sign you care about your impact on others.\n\nRemember, everyone makes mistakes—what matters is learning and making amends.\n\nBe gentle with yourself and allow space for growth.\n\nForgiveness is a gift you can give yourself.\n\nYou deserve to move forward with compassion.\n"
+  utter_feeling_jealous:
+  - text: "Jealousy is a natural emotion, but it can be uncomfortable.\n\nTry to focus on your own journey and celebrate your progress.\n\nRemember, everyone has struggles you may not see.\n\nUse jealousy as a signal for what you value and want to grow.\n\nYou are enough, just as you are.\n"
+  utter_feeling_confused:
+  - text: "Confusion is a normal part of growth and change.\n\nIt's okay not to have all the answers right now.\n\nTry to focus on one small step you can take today.\n\nClarity often comes with time and self-reflection.\n\nTrust yourself to find your way forward.\n"
+  utter_feeling_left_out:
+  - text: "Feeling left out can be deeply painful.\n\nRemember, your worth isn't defined by others' actions.\n\nTry reaching out to someone you trust or joining a new group.\n\nYou belong, even if it doesn't feel that way right now.\n\nConnection can start with a single conversation.\n"
+  utter_feeling_burned_out:
+  - text: "Burnout is your mind and body asking for rest.\n\nIt's okay to slow down and take care of yourself.\n\nSmall acts of self-care can help you recharge.\n\nRemember, you don't have to do everything at once.\n\nYou deserve rest and recovery.\n"
+  utter_feeling_insecure:
+  - text: "Insecurity is something everyone feels at times.\n\nTry to focus on your strengths and achievements.\n\nRemember, you have unique qualities that matter.\n\nConfidence grows with practice and self-kindness.\n\nYou are worthy, just as you are.\n"
+  utter_feeling_lonely_in_crowd:
+  - text: "Feeling lonely in a crowd is more common than you think.\n\nSometimes, it's about the quality of connection, not the quantity.\n\nTry to find one person you can talk to honestly.\n\nYour feelings are valid, and you deserve real connection.\n\nYou are not alone in feeling this way.\n"
+  utter_feeling_stuck:
+  - text: "Feeling stuck is a sign you're ready for change.\n\nStart with one small step, even if it feels insignificant.\n\nProgress is often slow and invisible at first.\n\nTrust that movement, however small, leads to growth.\n\nYou have the power to create change in your life.\n"
+  utter_feeling_unappreciated:
+  - text: Feeling unappreciated can be very painful. Your efforts and presence matter,
+      even if others don't always see it.
+  utter_feeling_afraid_of_future:
+  - text: It's normal to feel afraid of the future. Taking things one step at a time
+      can help you feel more grounded.
+  utter_feeling_shy:
+  - text: Shyness is a natural feeling. You can take small steps to build confidence
+      at your own pace.
+  utter_feeling_grateful:
+  - text: Gratitude can be a powerful tool for well-being. What is one thing you're
+      grateful for today?
+  utter_feeling_proud:
+  - text: It's important to recognize your achievements. You have every right to feel
+      proud of yourself.
+  utter_loneliness_in_crowds:
+  - text: Feeling lonely even in a crowd is more common than you think. You're not
+      alone in this experience.
+  utter_fear_of_future:
+  - text: The future can feel uncertain and scary. Focusing on the present moment
+      can help ease anxiety.
+  utter_dealing_with_rejection:
+  - text: Rejection is tough, but it doesn't define your worth. You're valuable just
+      as you are.
+  utter_overthinking_everything:
+  - text: Overthinking can be exhausting. Try to give yourself permission to let go
+      and trust yourself.
+  utter_feeling_empty:
+  - text: Feeling empty can be hard to describe. You're not alone, and support is
+      available.
+  utter_trust_issues_from_past:
+  - text: Past experiences can make trust difficult. Healing takes time, and it's
+      okay to move at your own pace.
+  utter_feeling_left_behind:
+  - text: It's easy to feel left behind when others seem to move forward. Your journey
+      is unique and valuable.
+  utter_fear_of_being_a_burden:
+  - text: You are not a burden. Your loved ones care about you and want to support
+      you. It's okay to ask for help when you need it.
+  utter_self_hate_or_low_self_worth:
+  - text: I'm really sorry you're feeling this way. You deserve kindness, even from
+      yourself. Try to notice one small thing you appreciate about yourself today,
+      and remember that your worth isn't defined by your negative thoughts.
+  utter_guilt_over_past_mistakes:
+  - text: It's hard to move past guilt, but remember that everyone makes mistakes.
+      Growth comes from learning, and self-forgiveness is a key part of healing.
+  utter_social_media_anxiety:
+  - text: Social media often shows only the highlights of people's lives. Consider
+      taking breaks or following accounts that uplift you. Your value isn't measured
+      by what you see online.
+  utter_fear_of_abandonment:
+  - text: That fear is very real for many people. Building secure relationships and
+      working on self-reliance can help. You're not alone in feeling this way.
+  utter_academic_or_career_burnout:
+  - text: Burnout is a sign you need rest and care. Try to set boundaries, take breaks,
+      and add some fun or relaxation to your routine. Your well-being matters more
+      than constant productivity.
+  utter_comparison_with_others:
+  - text: It's easy to feel behind when comparing yourself to others, but everyone's
+      journey is unique. Focus on your own growth and celebrate your progress, no
+      matter how small.
+  utter_feeling_unseen_or_ignored:
+  - text: I'm sorry you're feeling invisible. Your struggles are real and you matter.
+      Reaching out, even just to talk, can help you feel more connected.
+  utter_missing_someone:
+  - text: Missing someone deeply is a sign of love and connection. It's okay to grieve
+      and cherish the memories. Try to find healthy ways to cope, like writing or
+      talking about your feelings.
+  utter_body_image_issues:
+  - text: It's tough to struggle with body image. Remember, your worth isn't tied
+      to appearance. Try to focus on what your body allows you to do, and practice
+      self-compassion.
+  utter_feeling_unmotivated:
+  - text: It's normal to feel unmotivated sometimes, especially if you're burned out
+      or feeling low. Start with small, manageable tasks and be gentle with yourself.
+      You're not alone in this.
+  utter_anxiety_in_social_situations:
+  - text: Social anxiety is very common. Try practicing small social steps, use calming
+      breaths, and remember that most people are focused on themselves. Would you
+      like some tips for building confidence?
+  utter_feeling_stuck_in_life:
+  - text: Feeling stuck can be tough. Try to focus on one small thing you can control
+      or change. Even a tiny step forward is progress.
+  utter_emotional_overload:
+  - text: When everything feels like too much, try grounding techniques like deep
+      breathing or focusing on one thing at a time. Breaking problems into smaller
+      pieces can help reduce overwhelm.
+  utter_wanting_to_disappear:
+  - text: I'm really sorry you're feeling this way. Your pain is valid, and you deserve
+      support. If things feel too heavy, please consider reaching out to someone you
+      trust or a professional. You're not alone.
+  utter_feeling_invisible:
+  - text: Feeling invisible can be very painful. You matter, and your feelings are
+      important. Try reaching out to someone or expressing your needs—connection is
+      possible.
+  utter_dealing_with_change:
+  - text: Change can be uncomfortable and scary, but it's also a chance to grow. Take
+      things one step at a time and be patient with yourself as you adjust.
+  utter_not_feeling_good_enough:
+  - text: You are enough just as you are. Perfection isn't required for worthiness.
+      Try to notice your strengths and be kind to yourself.
+  utter_fear_of_judgment:
+  - text: Many people worry about being judged. Try to focus on your own values and
+      practice self-acceptance. Most people are more focused on themselves than we
+      think.
+  utter_dealing_with_lack_of_closure:
+  - text: Unanswered endings can be deeply painful. It's okay to grieve what you didn't
+      get. Sometimes, creating your own closure through reflection or journaling can
+      help you move forward.
+  utter_fear_of_being_replaced:
+  - text: You are unique and bring value to the lives of those around you. Building
+      secure relationships takes time, but you are not easily replaceable.
+  utter_overcommitting_to_please_others:
+  - text: Saying yes to everything can be exhausting. It's okay to set boundaries
+      and say 'no'—self-respect is important, and true friends will understand.
+  utter_pain_of_long_distance_relationship:
+  - text: Long-distance relationships are tough. Try to find meaningful ways to stay
+      connected and take care of your emotional needs. Your feelings are valid.
+  utter_regret_over_missed_opportunities:
+  - text: Regret is a natural feeling, but it's also a chance to learn and grow. Every
+      missed opportunity can teach you something for the future.
+  utter_fear_of_opening_up:
+  - text: It takes courage to share your feelings. Your vulnerability is a strength,
+      and expressing yourself is an important step toward healing.
+  utter_pressure_to_be_happy:
+  - text: It's okay not to be okay all the time. You don't have to hide your true
+      feelings—every emotion is valid, even the difficult ones.
+  utter_feeling_like_a_failure:
+  - text: Failure is not the end—it's a part of learning and growing. Every setback
+      brings experience, and you are not defined by your failures.
+  utter_grieving_a_pet_loss:
+  - text: Losing a pet is losing a family member. Your grief is real and valid. Cherish
+      the memories and allow yourself to mourn.
+  utter_shame_about_emotions:
+  - text: Feeling deeply is not a weakness—it's a sign of your sensitivity and strength.
+      Emotions are natural, and it's okay to express them.
+  utter_feeling_unloved:
+  - text: Your feelings are valid, and you are worthy of love. Sometimes self-love
+      is the first step—try a small act of kindness for yourself today.
+  utter_trauma_flashbacks:
+  - text: Trauma flashbacks can be very distressing. Try grounding techniques like
+      focusing on your breath or your surroundings. If it feels overwhelming, consider
+      reaching out to a professional for support.
+  utter_feeling_different_neurodivergent:
+  - text: "It's okay to feel different—your brain's unique wiring is valuable. Man"
+      people feel out of sync, but you are not alone. Embracing your neurodivergence
+      can be a strength. Would you like to talk about what helps you thrive?
+
+      '
+  utter_adhd_organization_struggles:
+  - text: "ADHD can make organization and focus really tough. You're not lazy o"
+      broken—your brain just works differently. Small routines, reminders, and self-compassion
+      can help. Would you like some tips or just to vent?
+
+      '
+  utter_confused_about_gender_identity:
+  - text: "Exploring your gender is a valid and personal journey. It's okay to fee"
+      confused or uncertain. You deserve a safe space to question and express yourself.
+      Take your time—there's no rush to find all the answers.
+
+      '
+  utter_family_not_accepting_trans_identity:
+  - text: "I'm so sorry your family isn't supportive. You deserve to be seen an"
+      accepted for who you are. Your identity is valid, even if others don't understand
+      yet. You're not alone—there are communities that care about you.
+
+      '
+  utter_torn_between_two_cultures:
+  - text: "Navigating multiple cultures can be challenging and sometimes lonely. It'""
+      okay to feel split or unsure where you belong. Your unique perspective is valuable.
+      How do you honor both sides of your identity?
+
+      '
+  utter_suffocated_by_family_traditions:
+  - text: "Family traditions can feel heavy, especially when they don't fit who yo"
+      are. It's okay to want space to be yourself. Balancing respect for tradition
+      and your own needs is hard—you're not alone in this struggle.
+
+      '
+  utter_brain_wont_shut_off_at_night:
+  - text: "Racing thoughts at night are so common, especially when you're stressed"
+      You're not alone in this. Would you like to try some calming techniques or
+      talk about what's on your mind?
+
+      '
+  utter_guilt_for_sleeping_too_much:
+  - text: "Needing extra rest doesn't make you lazy or bad. Your body and mind migh"
+      need more recovery right now. It's okay to honor your need for sleep without
+      guilt. How can you be kinder to yourself about rest?
+
+      '
+  utter_only_feel_free_when_creating:
+  - text: "Creative expression is a powerful way to process emotions and feel alive"
+      Your art, music, or writing matters—even if it's just for you. What do you
+      love most about creating?
+
+      '
+  utter_art_feels_meaningless_lately:
+  - text: "Creative blocks and feeling disconnected from your art are normal, especiall"
+      during tough times. Your creativity still has value, even if it feels empty
+      right now. Sometimes inspiration returns when you least expect it.
+
+      '
+  utter_failing_as_a_parent:
+  - text: "Parenting is incredibly hard, and feeling like you're failing is mor"
+      common than you think. Your care and concern show how much you love your child.
+      It's okay to make mistakes—you're doing your best.
+
+      '
+  utter_emotionally_exhausted_by_parenting:
+  - text: "Parenting can be emotionally draining, and it's okay to need a break"
+      Taking care of yourself helps you care for your child, too. You're not alone
+      in feeling this way. What support would help you right now?
+
+      '
+  utter_lost_without_online_persona:
+  - text: "It's easy to feel lost when your online and offline selves feel different"
+      Your worth isn't tied to your digital presence. Exploring your authentic self
+      can be a journey—what feels most real to you?
+
+      '
+  utter_feel_fake_on_social_media:
+  - text: "Social media often encourages us to present a filtered version of ourselves"
+      You're not alone in feeling this way. It's okay to want authenticity—what
+      would help you feel more genuine online?
+
+      '
+  utter_hopeless_due_to_health_issues:
+  - text: "Chronic illness can be so isolating and exhausting. Your feelings are valid"
+      and it's okay to grieve what you've lost. You're not alone—would you like
+      to talk about ways to find hope or comfort?
+
+      '
+  utter_people_dont_understand_chronic_illness:
+  - text: "Feeling misunderstood about your health is so tough. Your experience i"
+      real, even if others can't see it. You deserve compassion and support. Would
+      you like to share more about what you're going through?
+
+      '
+  utter_every_decision_feels_life_or_death:
+  - text: "Decision anxiety can feel overwhelming and paralyzing. You're not alon"
+      in this. Sometimes breaking choices into small steps can help. Would you like
+      to talk through a decision or learn some calming techniques?
+
+      '
+  utter_overthinking_every_little_thing:
+  - text: "Overthinking is exhausting and can steal your peace. You're not alone—man"
+      people struggle with this. Practicing self-compassion and grounding can help.
+      Would you like some tips or just to talk it out?
+
+      '
+  utter_hopeless_about_future_of_planet:
+  - text: "Eco-anxiety is real and valid. It's normal to feel grief or fear abou"
+      the planet's future. Small actions and connecting with others who care can
+      help. Would you like to talk about ways to cope or take action?
+
+      '
+  utter_climate_change_anxiety_daily:
+  - text: "Climate change anxiety is becoming more common, especially for younge"
+      generations. Your concern shows you care deeply. It's okay to feel overwhelmed—what
+      helps you feel grounded or hopeful?
+
+      '
+  utter_shame_about_needing_help:
+  - text: It's okay to need help. Reaching out is a sign of strength, not weakness.
+  utter_grieving_a_friendship:
+  - text: Losing a friendship can be deeply painful. Your feelings are valid, and
+      it's okay to grieve this loss.
+  utter_fear_of_getting_help:
+  - text: It's normal to feel afraid about seeking help. Taking the first step is
+      brave, and support is available when you're ready.
+  utter_missing_my_old_self:
+  - text: It's natural to miss who you used to be. Growth can feel like loss, but
+      your past self is still a part of you.
+  utter_feeling_used_or_exploited:
+  - text: Feeling used or exploited is very difficult. You deserve respect and healthy
+      boundaries.
+  utter_guilt_for_being_happy:
+  - text: It's okay to feel happy, even when others are struggling. Your joy doesn't
+      diminish your compassion.
+  utter_fear_of_losing_control:
+  - text: Fear of losing control is common. Focusing on what you can influence can
+      help you feel more grounded.
+  utter_heartbreak_after_cheating:
+  - text: Heartbreak after betrayal is deeply painful. Allow yourself to grieve and
+      seek support if you need it.
+  utter_feeling_insecure_about_appearance:
+  - text: Feeling insecure about your appearance is tough. Remember, your worth is
+      not defined by looks.
+  utter_burnout_from_helping_others:
+  - text: Helping others is meaningful, but you also need care. It's okay to set boundaries
+      and rest.
+  utter_mood_swings_without_reason:
+  - text: Mood swings can be confusing and exhausting. You're not alone, and support
+      is available.
+  utter_doubting_self_worth_after_rejection:
+  - text: Rejection can make you doubt your worth, but you are valuable just as you
+      are.
+  utter_feeling_guilty_for_resting:
+  - text: Rest is not a weakness. You deserve to recharge without guilt.
+  utter_struggling_to_trust_myself:
+  - text: Trusting yourself takes time. Try to notice your strengths and past successes.
+  utter_emotional_pain_but_smiling_outside:
+  - text: It's hard to hide pain behind a smile. You don't have to go through this
+      alone.
+  utter_feeling_trapped:
+  - text: Feeling trapped can be overwhelming. Even small, practical steps can help
+      you regain a sense of control and hope. You're not alone in this.
+  utter_emotionally_drained_by_family:
+  - text: Feeling emotionally drained by family is very tough. Your feelings are valid,
+      and it's okay to need space or support. Would you like to talk about what's
+      been most exhausting for you?
+  utter_trust_broken_by_loved_one:
+  - text: Having your trust broken by someone you care about is deeply painful. Your
+      feelings are valid, and it's okay to take time to heal. Would you like to talk
+      about what happened or how you're feeling?
+  utter_confused_about_feelings:
+  - text: Feeling confused about your feelings is normal. It's okay to take time to
+      understand them. Would you like to talk about what's on your mind?
+  utter_fear_of_losing_myself_in_relationships:
+  - text: Losing yourself in relationships can be scary. Remember, your needs and
+      identity matter. Would you like to talk about it?
+  utter_feeling_like_a_bad_person:
+  - text: Feeling like a bad person is a heavy burden. Remember, everyone makes mistakes
+      and can grow. Would you like to talk about what's making you feel this way?
+  utter_guilt_from_saying_hurtful_words:
+  - text: Guilt from saying hurtful words is common. Apologizing and learning from
+      it is a sign of growth. Would you like to talk about it?
+  utter_fear_of_being_too_much:
+  - text: "The fear of being too much is a common worry. You are worthy of love and acceptance just as you are. Would you like to talk about what makes you feel this way?"
+  utter_emotionally_attached_to_strangers_online:
+  - text: Forming emotional attachments online is more common than you think. Would
+      you like to talk about your experience?
+  utter_feeling_stuck_in_loop:
+  - text: Feeling stuck in a loop can be exhausting. Small changes can help break
+      the cycle. Would you like to talk about it?
+  utter_fear_of_never_being_understood:
+  - text: The fear of never being understood is very real. You deserve to be heard.
+      Would you like to talk about it?
+  utter_struggling_with_forgiving_myself:
+  - text: Forgiving yourself is a journey. Be gentle with yourself as you heal. Would
+      you like to talk about it?
+  utter_carrying_other_peoples_emotions:
+  - text: Carrying other people's emotions can be overwhelming. It's okay to set boundaries
+      and care for yourself. Would you like to talk about it?
+  utter_fear_of_being_forgotten:
+  - text: The fear of being forgotten is common and can feel very lonely. You matter,
+      and your presence is important. Would you like to talk about it?
+  utter_feeling_not_ready_for_adulthood:
+  - text: Not feeling ready for adulthood is more common than you think. It's okay
+      to take things one step at a time. Would you like to talk about it?
+  utter_emotional_triggers_from_past:
+  - text: Emotional triggers from the past can be powerful. Healing is possible, and
+      you're not alone. Would you like to talk about it?
+  utter_fear_of_dying_alone:
+  - text: The fear of dying alone is a deep and difficult feeling. You're not alone
+      in this. Would you like to talk about it?
+  utter_fear_of_being_too_sensitive:
+  - text: Being sensitive is a strength, not a weakness. Would you like to talk about
+      your feelings?
+  utter_pressure_to_be_perfect:
+  - text: The pressure to be perfect can be overwhelming. You are enough as you are.
+      Would you like to talk about it?
+  utter_feeling_guilty_for_past_happiness:
+  - text: Feeling guilty for past happiness is more common than you think. You deserve
+      joy. Would you like to talk about it?
+  utter_struggling_with_lack_of_focus:
+  - text: Struggling with focus is normal, especially during stressful times. Would
+      you like to talk about it?
+  utter_difficulty_crying:
+  - text: Having difficulty crying is more common than you think. Sometimes emotions
+      are hard to express, and that's okay. Would you like to talk about what's making
+      it hard for you to cry?
+  utter_scared_to_be_vulnerable:
+  - text: It's normal to feel scared about being vulnerable. Opening up takes courage,
+      and you deserve a safe space to share your feelings. Would you like to talk
+      about what's making vulnerability difficult for you?
+  utter_fear_of_disappointing_others:
+  - text: The fear of disappointing others can be heavy. Remember, your worth isn't
+      defined by others' expectations. Would you like to share more about this feeling?
+  utter_grief_of_a_dream_that_didnt_work_out:
+  - text: Grieving a dream that didn't work out is a real and valid loss. It's okay
+      to mourn what could have been. Would you like to talk about what this dream
+      meant to you?
+  utter_guilt_for_saying_no:
+  - text: Feeling guilty for saying no is very common, but setting boundaries is healthy
+      and important. You have the right to prioritize your own needs. Would you like
+      to talk about what made you feel this way?
+  utter_feeling_disconnected_from_self:
+  - text: Feeling disconnected from yourself can be unsettling. It's okay to take
+      time to reconnect and explore what brings you comfort or meaning. Would you
+      like to talk about what's making you feel this way?
+  utter_struggling_with_forgiveness:
+  - text: Struggling with forgiveness is a common and difficult experience. It's okay
+      to take your time—healing and letting go are personal journeys. Would you like
+      to talk about what's making forgiveness hard for you?
+  utter_hiding_emotions_from_others:
+  - text: Hiding your emotions from others can feel isolating and exhausting. It's
+      okay to want to protect yourself, but you also deserve support and understanding.
+      Would you like to talk about what's making it hard to open up?
+  utter_feeling_unfairly_judged:
+  - text: Feeling unfairly judged can be deeply hurtful and isolating. Your experience
+      is valid, and you deserve understanding and acceptance. Would you like to talk
+      about what's making you feel this way?
+  utter_struggling_with_boundaries:
+  - text: Struggling with boundaries is a common challenge. It's okay to prioritize
+      your own needs and set limits. Would you like to talk about what's making boundaries
+      difficult for you?
+  utter_self_sabotage_patterns:
+  - text: Self-sabotage patterns can be frustrating and hard to break. You're not
+      alone in this struggle. Would you like to talk about what triggers these patterns
+      for you or how they show up in your life?
+  utter_addicted_to_distractions:
+  - text: Feeling addicted to distractions is more common than you think, especially
+      in today's world. It's okay to struggle with focus and attention. Would you
+      like to talk about what draws you to distractions or how it affects you?
+  utter_stuck_in_past:
+  - text: Feeling stuck in the past is a common struggle. Healing takes time, and
+      it's okay to move at your own pace. Would you like to talk about what's keeping
+      you there or how it feels?
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions: []

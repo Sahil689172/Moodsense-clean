@@ -433,3 +433,663 @@ stories:
   steps:
   - intent: feeling_proud
   - action: utter_feeling_proud
+
+- story: coping with family pressure
+  steps:
+    - intent: coping_with_family_pressure
+    - action: utter_coping_with_family_pressure
+
+- story: struggling with identity
+  steps:
+    - intent: struggling_with_identity
+    - action: utter_struggling_with_identity
+
+- story: loneliness in crowds
+  steps:
+    - intent: loneliness_in_crowds
+    - action: utter_loneliness_in_crowds
+
+- story: fear of future
+  steps:
+    - intent: fear_of_future
+    - action: utter_fear_of_future
+
+- story: dealing with rejection
+  steps:
+    - intent: dealing_with_rejection
+    - action: utter_dealing_with_rejection
+
+- story: overthinking everything
+  steps:
+    - intent: overthinking_everything
+    - action: utter_overthinking_everything
+
+- story: feeling empty
+  steps:
+    - intent: feeling_empty
+    - action: utter_feeling_empty
+
+- story: trust issues from past
+  steps:
+    - intent: trust_issues_from_past
+    - action: utter_trust_issues_from_past
+
+- story: feeling left behind
+  steps:
+    - intent: feeling_left_behind
+    - action: utter_feeling_left_behind
+
+- story: fear of being a burden
+  steps:
+    - intent: fear_of_being_a_burden
+    - action: utter_fear_of_being_a_burden
+
+- story: self hate or low self worth
+  steps:
+    - intent: self_hate_or_low_self_worth
+    - action: utter_self_hate_or_low_self_worth
+
+- story: guilt over past mistakes
+  steps:
+    - intent: guilt_over_past_mistakes
+    - action: utter_guilt_over_past_mistakes
+
+- story: social media anxiety
+  steps:
+    - intent: social_media_anxiety
+    - action: utter_social_media_anxiety
+
+- story: fear of abandonment
+  steps:
+    - intent: fear_of_abandonment
+    - action: utter_fear_of_abandonment
+
+- story: academic or career burnout
+  steps:
+    - intent: academic_or_career_burnout
+    - action: utter_academic_or_career_burnout
+
+- story: comparison with others
+  steps:
+    - intent: comparison_with_others
+    - action: utter_comparison_with_others
+
+- story: feeling unseen or ignored
+  steps:
+    - intent: feeling_unseen_or_ignored
+    - action: utter_feeling_unseen_or_ignored
+
+- story: fear of failure
+  steps:
+    - intent: fear_of_failure
+    - action: utter_fear_of_failure
+
+- story: missing someone
+  steps:
+    - intent: missing_someone
+    - action: utter_missing_someone
+
+- story: body image issues
+  steps:
+    - intent: body_image_issues
+    - action: utter_body_image_issues
+
+- story: sleep problems
+  steps:
+    - intent: sleep_problems
+    - action: utter_sleep_problems
+
+- story: feeling unmotivated
+  steps:
+    - intent: feeling_unmotivated
+    - action: utter_feeling_unmotivated
+
+- story: anxiety in social situations
+  steps:
+    - intent: anxiety_in_social_situations
+    - action: utter_anxiety_in_social_situations
+
+- story: feeling stuck in life
+  steps:
+    - intent: feeling_stuck_in_life
+    - action: utter_feeling_stuck_in_life
+
+- story: emotional overload
+  steps:
+    - intent: emotional_overload
+    - action: utter_emotional_overload
+
+- story: wanting to disappear
+  steps:
+    - intent: wanting_to_disappear
+    - action: utter_wanting_to_disappear
+
+- story: feeling invisible
+  steps:
+    - intent: feeling_invisible
+    - action: utter_feeling_invisible
+
+- story: dealing with change
+  steps:
+    - intent: dealing_with_change
+    - action: utter_dealing_with_change
+
+- story: not feeling good enough
+  steps:
+    - intent: not_feeling_good_enough
+    - action: utter_not_feeling_good_enough
+
+- story: fear of judgment
+  steps:
+    - intent: fear_of_judgment
+    - action: utter_fear_of_judgment
+
+- story: dealing with lack of closure
+  steps:
+    - intent: dealing_with_lack_of_closure
+    - action: utter_dealing_with_lack_of_closure
+
+- story: fear of being replaced
+  steps:
+    - intent: fear_of_being_replaced
+    - action: utter_fear_of_being_replaced
+
+- story: overcommitting to please others
+  steps:
+    - intent: overcommitting_to_please_others
+    - action: utter_overcommitting_to_please_others
+
+- story: pain of long distance relationship
+  steps:
+    - intent: pain_of_long_distance_relationship
+    - action: utter_pain_of_long_distance_relationship
+
+- story: regret over missed opportunities
+  steps:
+    - intent: regret_over_missed_opportunities
+    - action: utter_regret_over_missed_opportunities
+
+- story: fear of opening up
+  steps:
+    - intent: fear_of_opening_up
+    - action: utter_fear_of_opening_up
+
+- story: pressure to be happy
+  steps:
+    - intent: pressure_to_be_happy
+    - action: utter_pressure_to_be_happy
+
+- story: feeling like a failure
+  steps:
+    - intent: feeling_like_a_failure
+    - action: utter_feeling_like_a_failure
+
+- story: grieving a pet loss
+  steps:
+    - intent: grieving_a_pet_loss
+    - action: utter_grieving_a_pet_loss
+
+- story: shame about emotions
+  steps:
+    - intent: shame_about_emotions
+    - action: utter_shame_about_emotions
+
+- story: feeling unloved
+  steps:
+    - intent: feeling_unloved
+    - action: utter_feeling_unloved
+
+- story: trauma flashbacks
+  steps:
+    - intent: trauma_flashbacks
+    - action: utter_trauma_flashbacks
+
+- story: struggling with forgiveness
+  steps:
+    - intent: struggling_with_forgiveness
+    - action: utter_struggling_with_forgiveness
+
+- story: fear of disappointing others
+  steps:
+    - intent: fear_of_disappointing_others
+    - action: utter_fear_of_disappointing_others
+
+- story: financial stress
+  steps:
+    - intent: financial_stress
+    - action: utter_financial_stress
+
+- story: breakup recovery
+  steps:
+    - intent: breakup_recovery
+    - action: utter_breakup_recovery
+
+- story: feeling emotionally exhausted
+  steps:
+    - intent: feeling_emotionally_exhausted
+    - action: utter_feeling_emotionally_exhausted
+
+- story: trust broken by loved one
+  steps:
+    - intent: trust_broken_by_loved_one
+    - action: utter_trust_broken_by_loved_one
+
+- story: self doubt about decisions
+  steps:
+    - intent: self_doubt_about_decisions
+    - action: utter_self_doubt_about_decisions
+
+- story: feeling disconnected from self
+  steps:
+    - intent: feeling_disconnected_from_self
+    - action: utter_feeling_disconnected_from_self
+
+- story: stuck in past
+  steps:
+    - intent: stuck_in_past
+    - action: utter_stuck_in_past
+
+- story: burden of responsibility
+  steps:
+    - intent: burden_of_responsibility
+    - action: utter_burden_of_responsibility
+
+- story: emotional dependency
+  steps:
+    - intent: emotional_dependency
+    - action: utter_emotional_dependency
+
+- story: constant apology behavior
+  steps:
+    - intent: constant_apology_behavior
+    - action: utter_constant_apology_behavior
+
+- story: feeling trapped
+  steps:
+    - intent: feeling_trapped
+    - action: utter_feeling_trapped
+
+- story: hiding emotions from others
+  steps:
+    - intent: hiding_emotions_from_others
+    - action: utter_hiding_emotions_from_others
+
+- story: being tired of being strong
+  steps:
+    - intent: being_tired_of_being_strong
+    - action: utter_being_tired_of_being_strong
+
+- story: scared to start again
+  steps:
+    - intent: scared_to_start_again
+    - action: utter_scared_to_start_again
+
+- story: feeling emotionally unavailable
+  steps:
+    - intent: feeling_emotionally_unavailable
+    - action: utter_feeling_emotionally_unavailable
+
+- story: dealing with jealousy
+  steps:
+    - intent: dealing_with_jealousy
+    - action: utter_dealing_with_jealousy
+
+- story: post argument guilt
+  steps:
+    - intent: post_argument_guilt
+    - action: utter_post_argument_guilt
+
+- story: overwhelmed by world events
+  steps:
+    - intent: overwhelmed_by_world_events
+    - action: utter_overwhelmed_by_world_events
+
+- story: lack of emotional support
+  steps:
+    - intent: lack_of_emotional_support
+    - action: utter_lack_of_emotional_support
+
+- story: self sabotage patterns
+  steps:
+    - intent: self_sabotage_patterns
+    - action: utter_self_sabotage_patterns
+
+- story: feeling like a ghost
+  steps:
+    - intent: feeling_like_a_ghost
+    - action: utter_feeling_like_a_ghost
+
+- story: struggling with boundaries
+  steps:
+    - intent: struggling_with_boundaries
+    - action: utter_struggling_with_boundaries
+
+- story: fear of being too much
+  steps:
+    - intent: fear_of_being_too_much
+    - action: utter_fear_of_being_too_much
+
+- story: grieving a friendship
+  steps:
+    - intent: grieving_a_friendship
+    - action: utter_grieving_a_friendship
+
+- story: fear of getting help
+  steps:
+    - intent: fear_of_getting_help
+    - action: utter_fear_of_getting_help
+
+- story: shame about needing help
+  steps:
+    - intent: shame_about_needing_help
+    - action: utter_shame_about_needing_help
+
+- story: missing my old self
+  steps:
+    - intent: missing_my_old_self
+    - action: utter_missing_my_old_self
+
+- story: feeling used or exploited
+  steps:
+    - intent: feeling_used_or_exploited
+    - action: utter_feeling_used_or_exploited
+
+- story: guilt for being happy
+  steps:
+    - intent: guilt_for_being_happy
+    - action: utter_guilt_for_being_happy
+
+- story: fear of losing control
+  steps:
+    - intent: fear_of_losing_control
+    - action: utter_fear_of_losing_control
+
+- story: heartbreak after cheating
+  steps:
+    - intent: heartbreak_after_cheating
+    - action: utter_heartbreak_after_cheating
+
+- story: feeling insecure about appearance
+  steps:
+    - intent: feeling_insecure_about_appearance
+    - action: utter_feeling_insecure_about_appearance
+
+- story: burnout from helping others
+  steps:
+    - intent: burnout_from_helping_others
+    - action: utter_burnout_from_helping_others
+
+- story: mood swings without reason
+  steps:
+    - intent: mood_swings_without_reason
+    - action: utter_mood_swings_without_reason
+
+- story: doubting self worth after rejection
+  steps:
+    - intent: doubting_self_worth_after_rejection
+    - action: utter_doubting_self_worth_after_rejection
+
+- story: feeling guilty for resting
+  steps:
+    - intent: feeling_guilty_for_resting
+    - action: utter_feeling_guilty_for_resting
+
+- story: struggling to trust myself
+  steps:
+    - intent: struggling_to_trust_myself
+    - action: utter_struggling_to_trust_myself
+
+- story: emotional pain but smiling outside
+  steps:
+    - intent: emotional_pain_but_smiling_outside
+    - action: utter_emotional_pain_but_smiling_outside
+
+- story: fear of being a failure to family support
+  steps:
+    - intent: fear_of_being_a_failure_to_family
+    - action: utter_fear_of_being_a_failure_to_family
+
+- story: doubting life purpose support
+  steps:
+    - intent: doubting_life_purpose
+    - action: utter_doubting_life_purpose
+
+- story: feeling unfairly judged support
+  steps:
+    - intent: feeling_unfairly_judged
+    - action: utter_feeling_unfairly_judged
+
+- story: emotional emptiness after success support
+  steps:
+    - intent: emotional_emptiness_after_success
+    - action: utter_emotional_emptiness_after_success
+
+- story: addicted to distractions support
+  steps:
+    - intent: addicted_to_distractions
+    - action: utter_addicted_to_distractions
+
+- story: difficulty crying support
+  steps:
+    - intent: difficulty_crying
+    - action: utter_difficulty_crying
+
+- story: feeling mentally drained from socializing support
+  steps:
+    - intent: feeling_mentally_drained_from_socializing
+    - action: utter_feeling_mentally_drained_from_socializing
+
+- story: grief of a dream that didnt work out support
+  steps:
+    - intent: grief_of_a_dream_that_didnt_work_out
+    - action: utter_grief_of_a_dream_that_didnt_work_out
+
+- story: scared to be vulnerable support
+  steps:
+    - intent: scared_to_be_vulnerable
+    - action: utter_scared_to_be_vulnerable
+
+- story: guilt for saying no support
+  steps:
+    - intent: guilt_for_saying_no
+    - action: utter_guilt_for_saying_no
+
+- story: carrying other peoples emotions support
+  steps:
+    - intent: carrying_other_peoples_emotions
+    - action: utter_carrying_other_peoples_emotions
+
+- story: fear of being forgotten support
+  steps:
+    - intent: fear_of_being_forgotten
+    - action: utter_fear_of_being_forgotten
+
+- story: feeling not ready for adulthood support
+  steps:
+    - intent: feeling_not_ready_for_adulthood
+    - action: utter_feeling_not_ready_for_adulthood
+
+- story: emotional triggers from past support
+  steps:
+    - intent: emotional_triggers_from_past
+    - action: utter_emotional_triggers_from_past
+
+- story: fear of dying alone support
+  steps:
+    - intent: fear_of_dying_alone
+    - action: utter_fear_of_dying_alone
+
+- story: fear of being too sensitive support
+  steps:
+    - intent: fear_of_being_too_sensitive
+    - action: utter_fear_of_being_too_sensitive
+
+- story: pressure to be perfect support
+  steps:
+    - intent: pressure_to_be_perfect
+    - action: utter_pressure_to_be_perfect
+
+- story: feeling guilty for past happiness support
+  steps:
+    - intent: feeling_guilty_for_past_happiness
+    - action: utter_feeling_guilty_for_past_happiness
+
+- story: struggling with lack of focus support
+  steps:
+    - intent: struggling_with_lack_of_focus
+    - action: utter_struggling_with_lack_of_focus
+
+- story: emotionally drained by family support
+  steps:
+    - intent: emotionally_drained_by_family
+    - action: utter_emotionally_drained_by_family
+
+- story: confused about feelings support
+  steps:
+    - intent: confused_about_feelings
+    - action: utter_confused_about_feelings
+
+- story: fear of losing myself in relationships support
+  steps:
+    - intent: fear_of_losing_myself_in_relationships
+    - action: utter_fear_of_losing_myself_in_relationships
+
+- story: feeling like a bad person support
+  steps:
+    - intent: feeling_like_a_bad_person
+    - action: utter_feeling_like_a_bad_person
+
+- story: guilt from saying hurtful words support
+  steps:
+    - intent: guilt_from_saying_hurtful_words
+    - action: utter_guilt_from_saying_hurtful_words
+
+- story: feeling left out support
+  steps:
+    - intent: feeling_left_out
+    - action: utter_feeling_left_out
+
+- story: fear of being too much to handle support
+  steps:
+    - intent: fear_of_being_too_much_to_handle
+    - action: utter_fear_of_being_too_much_to_handle
+
+- story: emotionally attached to strangers online support
+  steps:
+    - intent: emotionally_attached_to_strangers_online
+    - action: utter_emotionally_attached_to_strangers_online
+
+- story: feeling stuck in loop support
+  steps:
+    - intent: feeling_stuck_in_loop
+    - action: utter_feeling_stuck_in_loop
+
+- story: fear of never being understood support
+  steps:
+    - intent: fear_of_never_being_understood
+    - action: utter_fear_of_never_being_understood
+
+- story: struggling with forgiving myself support
+  steps:
+    - intent: struggling_with_forgiving_myself
+    - action: utter_struggling_with_forgiving_myself
+
+# Neurodiversity and Mental Health
+- story: feeling different neurodivergent support
+  steps:
+  - intent: feeling_different_neurodivergent
+  - action: utter_feeling_different_neurodivergent
+- story: adhd organization struggles support
+  steps:
+  - intent: adhd_organization_struggles
+  - action: utter_adhd_organization_struggles
+
+# Gender Identity and Expression
+- story: confused about gender identity support
+  steps:
+  - intent: confused_about_gender_identity
+  - action: utter_confused_about_gender_identity
+- story: family not accepting trans identity support
+  steps:
+  - intent: family_not_accepting_trans_identity
+  - action: utter_family_not_accepting_trans_identity
+
+# Cultural Identity and Belonging
+- story: torn between two cultures support
+  steps:
+  - intent: torn_between_two_cultures
+  - action: utter_torn_between_two_cultures
+- story: suffocated by family traditions support
+  steps:
+  - intent: suffocated_by_family_traditions
+  - action: utter_suffocated_by_family_traditions
+
+# Sleep and Rest Challenges
+- story: brain wont shut off at night support
+  steps:
+  - intent: brain_wont_shut_off_at_night
+  - action: utter_brain_wont_shut_off_at_night
+- story: guilt for sleeping too much support
+  steps:
+  - intent: guilt_for_sleeping_too_much
+  - action: utter_guilt_for_sleeping_too_much
+
+# Creativity and Emotional Expression
+- story: only feel free when creating support
+  steps:
+  - intent: only_feel_free_when_creating
+  - action: utter_only_feel_free_when_creating
+- story: art feels meaningless lately support
+  steps:
+  - intent: art_feels_meaningless_lately
+  - action: utter_art_feels_meaningless_lately
+
+# Parenting Stress and Emotional Impact
+- story: failing as a parent support
+  steps:
+  - intent: failing_as_a_parent
+  - action: utter_failing_as_a_parent
+- story: emotionally exhausted by parenting support
+  steps:
+  - intent: emotionally_exhausted_by_parenting
+  - action: utter_emotionally_exhausted_by_parenting
+
+# Identity in Digital Spaces
+- story: lost without online persona support
+  steps:
+  - intent: lost_without_online_persona
+  - action: utter_lost_without_online_persona
+- story: feel fake on social media support
+  steps:
+  - intent: feel_fake_on_social_media
+  - action: utter_feel_fake_on_social_media
+
+# Chronic Illness and Mental Health
+- story: hopeless due to health issues support
+  steps:
+  - intent: hopeless_due_to_health_issues
+  - action: utter_hopeless_due_to_health_issues
+- story: people dont understand chronic illness support
+  steps:
+  - intent: people_dont_understand_chronic_illness
+  - action: utter_people_dont_understand_chronic_illness
+
+# Decision-Making Anxiety
+- story: every decision feels life or death support
+  steps:
+  - intent: every_decision_feels_life_or_death
+  - action: utter_every_decision_feels_life_or_death
+- story: overthinking every little thing support
+  steps:
+  - intent: overthinking_every_little_thing
+  - action: utter_overthinking_every_little_thing
+
+# Climate Anxiety and Environmental Grief
+- story: hopeless about future of planet support
+  steps:
+  - intent: hopeless_about_future_of_planet
+  - action: utter_hopeless_about_future_of_planet
+- story: climate change anxiety daily support
+  steps:
+  - intent: climate_change_anxiety_daily
+  - action: utter_climate_change_anxiety_daily

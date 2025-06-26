@@ -40,3 +40,7 @@
 #  username: username
 #  password: password
 #  queue: queue
+
+cors:
+  origins:
+    - "http://localhost:3000"
