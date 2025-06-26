@@ -17,4 +17,4 @@ WORKDIR /app
 EXPOSE 10000
 
 # Run Rasa server
-CMD ["rasa", "run", "--enable-api", "--cors", "*", "--port", "10000"] 
+CMD ["sh", "-c", "rasa run --enable-api --cors '*' --port ${PORT:-10000}"] 
