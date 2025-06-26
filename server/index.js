@@ -13,6 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 const WIT_TOKEN = 'RMCF65UM5QJHRVTPW22SH2C4NSQ6CQZS'; // Paste your token here
+const RASA_URL = process.env.RASA_URL || 'http://127.0.0.1:5005/webhooks/rest/webhook';
 
 app.get('/', (req, res) => {
   res.send('Firebase backend is running!');
@@ -51,7 +52,7 @@ app.post('/chat', async (req, res) => {
   const { message } = req.body;
   console.log('Received message from UI:', message);
   try {
-    const rasaRes = await axios.post('http://127.0.0.1:5005/webhooks/rest/webhook', {
+    const rasaRes = await axios.post(RASA_URL, {
       sender: "user",
       message: message
     });
