@@ -21,4 +21,6 @@ ENV SQLALCHEMY_SILENCE_UBER_WARNING=1
 RUN pip install "sqlalchemy<2.0"
 
 # Run Rasa server
-CMD ["sh", "-c", "rasa run --enable-api --cors '*' --port ${PORT:-5005} --debug"] 
+CMD ["sh", "-c", "rasa run --enable-api --cors '*' --port ${PORT:-5005} --debug"]
+
+RUN python -c "import sqlalchemy; print('SQLAlchemy version:', sqlalchemy.__version__)" 
