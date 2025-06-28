@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 const WIT_TOKEN = 'RMCF65UM5QJHRVTPW22SH2C4NSQ6CQZS'; // Paste your token here
-const RASA_URL = process.env.RASA_URL || 'http://127.0.0.1:5005/webhooks/rest/webhook';
+const RASA_URL = process.env.RASA_URL || 'https://web-production-f647.up.railway.app/webhooks/rest/webhook';
 
 app.get('/', (req, res) => {
   res.send('Firebase backend is running!');
