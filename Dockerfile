@@ -17,4 +17,4 @@ WORKDIR /app
 EXPOSE 5005
 
 # Run Rasa server
-CMD sh -c "rasa run --enable-api --cors '*' --port \${PORT:-5005} --debug" 
+CMD sh -c "echo PORT=\${PORT}; rasa run --enable-api --cors '*' --port \${PORT:-5005} --debug" 
