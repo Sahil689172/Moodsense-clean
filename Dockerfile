@@ -16,5 +16,9 @@ WORKDIR /app
 # Expose the port Rasa will run on
 EXPOSE 5005
 
+# Set SQLAlchemy warning suppression
+ENV SQLALCHEMY_SILENCE_UBER_WARNING=1
+RUN pip install "sqlalchemy<2.0"
+
 # Run Rasa server
-CMD sh -c "rasa run --enable-api --cors '*' --port \${PORT:-5005} --debug" 
+CMD ["sh", "-c", "rasa run --enable-api --cors '*' --port ${PORT:-5005} --debug"] 
